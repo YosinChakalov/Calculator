@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="body">
+    <div class="calcApkImg">
+      <div class="calcX">&times;</div>
+      <div class="calcequal">=</div>
+      <div class="calcplus">+</div>
+      <div class="calcminus">&minus;</div>
+    </div>
+    <h1 class="calcname">Calculator</h1>
+
+    <dialog class="dialog_main">
+      <div class="head">
+        <div class="dialog_head_left">
+          <img src="./splash_dark.png" alt="" />
+          <h1>Calculator</h1>
+        </div>
+        <div class="dialog_head_right">
+          <button class="cancelBtn">&times;</button>
+        </div>
+      </div>
+      <form class="form_1">
+        <div class="textarea">
+          <h2 class="h2"></h2>
+          <h1 class="info"></h1>
+        </div>
+        <div class="border_gradient"></div>
+        <div class="calcbuttons">
+          <div class="middle_top">
+            <div class="small_answer"></div>
+            <img src="./delete.png" alt="" class="deletone">
+          </div>
+          <div class="rows">
+            <button class="symbols_1" type="reset" name="resetall" >C</button>
+            <button value="( )" class="symbols_1" name="brakets">( )</button>
+            <button value="%" class="symbols_1" name="percent">%</button>
+            <button value="/" class="symbols_2" name="divide">/</button>
+          </div>
+          <div class="rows">
+            <button value="7" class="numbers" name="seven">7</button>
+            <button value="8" class="numbers" name="eight">8</button>
+            <button value="9" class="numbers" name="nine">9</button>
+            <button value="*" class="symbols_2" name="multiply">&times;</button>
+          </div>
+          <div class="rows">
+            <button value="4" class="numbers" name="four">4</button>
+            <button value="5" class="numbers" name="five">5</button>
+            <button value="6" class="numbers" name="six">6</button>
+            <button value="-" class="symbols_2" name="minus">-</button>
+          </div>
+          <div class="rows">
+            <button value="1" class="numbers" name="one">1</button>
+            <button value="2" class="numbers" name="two">2</button>
+            <button value="3" class="numbers" name="three">3</button>
+            <button value="+" class="symbols_2" name="plus">+</button>
+          </div>
+          <div class="rows">
+            <button value="" class="numbers" name="neg-pos">+/-</button>
+            <button value="0" class="numbers" name="zero">0</button>
+            <button value="." class="numbers" name="float">.</button>
+            <button type="submit" name="equal" class="linearbtn">=</button>
+          </div>
+        </div>
+      </form>
+    </dialog>
+
+    <script type="module" src="./Js/main.js"></script>
+  </body>
+</html>
